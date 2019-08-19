@@ -20,8 +20,9 @@ emoticons
 
 def get_japanese_emoticon(emo_icon,emoticons)
  load_library(emo_icon)
+ 
 end
 
 def get_english_meaning
-  # code goes here
+  load_library(emo_icon)
 end
