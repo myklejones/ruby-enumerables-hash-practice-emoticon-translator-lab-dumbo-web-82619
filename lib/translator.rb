@@ -19,7 +19,7 @@ emoticons
 
 
 def get_japanese_emoticon(emo_icon,emoticons)
- load_library(emo_icon)
+ result =load_library(emo_icon)[emoticons]
  
  
 end
